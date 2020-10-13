@@ -695,8 +695,8 @@ To make (attacker - a person) strike a blow against (defender - a person):
 	let the damage done be the unarmed combat hit dice of the attacker;
 	let the instrument be nothing;
 	if the attacker carries a weapon:
-		let the instrument be the savagest weapon carried by the attacker;
-		let the damage done be the hit dice of the instrument;
+		now the instrument is the savagest weapon carried by the attacker;
+		now the damage done is the hit dice of the instrument;
 		say "[technique of the instrument] [the instrument]";
 	otherwise:
 		say hand-to-hand combat method of the attacker;
@@ -728,13 +728,13 @@ To make (attacker - a person) strike a blow against (defender - a person):
 		stop;
 	if the to-hit roll <= 19:
 		say " - hit (11 to 19), doing [damage done] of damage: ";
-		let the hits be the roll of the damage done;
+		now the hits is the roll of the damage done;
 		if the hits is 1, say " point";
 		otherwise say " points";
 	otherwise:
 		say " - critical hit (20 or more), doing [damage done] doubled of damage: ";
-		let the hits be the roll of the damage done;
-		let the hits be the hits multiplied by 2;
+		now the hits is the roll of the damage done;
+		now the hits is the hits multiplied by 2;
 		say ", doubled up to [hits] points";
 	let the counter-charm be the defensive charm of the attacker;
 	if the defender is affected by the counter-charm:
