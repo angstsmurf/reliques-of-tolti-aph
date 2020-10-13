@@ -949,6 +949,8 @@ The stolen tombstones are scenery in the Broken Lane. The description of the sto
 
 The broken half-brick is fixed in place. The half-brick is clay.[* Another tricky-to-find clay focus, in case the player didn't find the clay pipe.] Understand "brick" as the broken half-brick.
 
+Rule for printing the name of the broken half-brick while taking inventory: say "that broken half-brick you absent-mindedly picked up when trying to mend the roadway".
+
 The flame-blackened door is west of the Broken Lane and east of the Sunken Courtyard East. The flame-blackened door is a closed openable door. "Set into the slab-sided [if the location is the Broken Lane]western cutting of the lane[otherwise]eastern apex of the courtyard[end if] is a flame-blackened door, no more than four feet high." The flame-blackened door is lockable and locked. The flame-blackened door is wood. The matching key of the flame-blackened door is the eight-legged key. Effect of casting mend at the flame-blackened door: record outcome "which gives off an air of superiority - in so far as doors can do such a thing - and somehow communicates to you that it [italic type]likes[roman type] being flame-blackened, thank you very much. Gives a door a certain air, a certain rakehell dash"; rule succeeds. The eight-legged key is metal.
 
 The flame-blackened door is inscribable. Check writing it on: if the second noun is the flame-blackened door, say "In paintings of ruined cities, bronze-limbed shepherds stand around pointing nobly at the sunset while half-fallen viaducts and temples of perfect white marble complement the sward. Typically, they are not seen scrawling graffiti over the remains, and neither are you."
@@ -1027,7 +1029,7 @@ Instead of going to the Ford for the first time, say "Just a warning before proc
 
 Icefinger Ford is north of the Gravel Track. "A shallow, rapid torrent washes over the Lane from northwest to southeast here, and no forest creek by the feel of it against your ankles but a mountain spring that must have burst from the ground no more than a mile away. This is goblin-work."
 
-In Icefinger Ford are four goblins, a bundle of kindling and a cracked cooking pot. The kindling is wood. The pot is clay. Instead of burning the kindling, say "The kindling is hopelessly too damp to catch light, even if you had something to light it with. Goblins [italic type]have[roman type] discovered fire, but they do keep forgetting the essential points." Effect of casting mend at the cooking pot: record outcome "but the pot isn't broken, as such: it was just badly made in the first place"; rule succeeds. 
+In Icefinger Ford are four goblins, a bundle of kindling and a cracked cooking pot. The kindling is wood. The pot is clay. Instead of inserting something into the pot, say "Ugh. Use a pot which goblins have been cooking with? I don't think so." Instead of burning the kindling, say "The kindling is hopelessly too damp to catch light, even if you had something to light it with. Goblins [italic type]have[roman type] discovered fire, but they do keep forgetting the essential points." Effect of casting mend at the cooking pot: record outcome "but the pot isn't broken, as such: it was just badly made in the first place"; rule succeeds.
 
 The river Icefinger is a backdrop. The river is in the Icefinger Ford, the Divide and the Icefinger Source. Understand "water" or "torrent" as the river Icefinger. Instead of drinking the river, say "It is cold enough that you can feel each separate tooth in your jaw." The river is air.[* In some metaphysical sense. There is an excuse - I don't think we could call it an explanation - in the accompanying spoof magazine.]
 
@@ -1039,6 +1041,8 @@ For calculating saving roll modifiers of the player:
 	if the location is in the Riverbed Course and we are going south,
 		modify to-save roll by 10 for "splashing back out the way you came";
 	continue the activity.[* This is to protect players who, despite the warning, march straight into the goblins and the middle of a rather difficult battle. Assuming they wish to run away, they need to make a saving roll to get out: failure to roll it means almost certain slaughter. That seems a little rough, so we give them a +10 bonus on this saving roll (making it virtually certain to succeed) so long as they only want to run back to the early rooms.]
+
+Instead of swimming in the Riverbed Course, say "The water is too shallow to swim in: it can be waded through quite easily, though, so feel free to walk around."
 
 Instead of going nowhere from the Icefinger Ford, say "The lane, of course, runs north to south; the shallow river washes through it from northwest to southeast."
 
